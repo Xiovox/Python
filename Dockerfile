@@ -5,11 +5,11 @@
 ## RUNNING
 ##   $ docker run python-for-xiovox-python
 
-FROM gcr.io/stacksmith-images/minideb-buildpack:jessie-r10
+FROM gcr.io/bitnami-containers/minideb-extras:jessie-r12-buildpack
 
 MAINTAINER Bitnami <containers@bitnami.com>
 
-ENV STACKSMITH_STACK_ID="fa03f3a" \
+ENV STACKSMITH_STACK_ID="9yjbje4" \
     STACKSMITH_STACK_NAME="Python for Xiovox/Python" \
     STACKSMITH_STACK_PRIVATE="1"
 
